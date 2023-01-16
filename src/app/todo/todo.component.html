@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<button class="btn btn-success" [routerLink]="['add-todo']">Nouveau Todo</button>
+
+<div *ngIf="tasks && tasks.length > 0; else noTasks">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>#</th>
+      <th>TODO</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let task of tasks">
+    <tr>
+      <td>{{ task.id }}</td>
+      <td>{{ task.title }}</td>
+      <td>        
+        <button class="btn btn-light" [routerLink]="['', task.id]"><i class="far fa-eye"></i></button>
+        <button class="btn btn-light" (click)="delete(task.id)"><i class="far fa-trash-alt"></i></button>
+        <button class="btn btn-light" [routerLink]="['', task.id, 'edit']"><i class="far fa-edit"></i></button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+

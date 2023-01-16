@@ -1,0 +1,10 @@
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+
+    <h5 class="card-title">{{task.title}}</h5>
+       
+    <button (click)="delete(task.id)" class="btn btn-danger" [routerLink]="['']">Valider !</button>
+
+    <button class="btn btn-light" [routerLink]="['']">Retour</button>
+  </div>
+</div>

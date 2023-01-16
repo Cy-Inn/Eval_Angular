@@ -1,0 +1,32 @@
+{
+  "init_tasks": [
+    {
+      "id": 1,
+      "title": "Exercice fais sous tutorat de quelqu'un qui a pas pratiqué depuis 2018"
+      
+    },
+
+    {
+      "id": 2,
+      "title": "Ne déplaçant pas le matériel de pret je n'avais pas l'énnoncé de l'exercice ni le dossier ressource"
+      
+    },
+
+    {
+      "id": 3,
+      "title": "Design des todos fait sous Bootstrap, pour les raisons cités id2 "
+    },
+  
+    {
+      "id": 4,
+      "title": "Après retour chez moi comparaison entre l'énnoncé et l'app todo"
+    },
+    
+    {
+      "id": 5,
+      "title": "Du coup ajout en compléte autonomie des options view et edit"
+      
+    }
+   
+  ]
+}
